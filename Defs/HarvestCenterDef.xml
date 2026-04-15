@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>AutoHarvestCenter</defName>
+		<label>Auto-harvest center</label>
+		<description>A centralized planning spot that automatically designates mature wild plants and trees for harvesting. Features a configuration tab to toggle specific pants types and fine-tune gathering radii, while safely ignoring psychically or culturally significant trees.</description>
+		<thingClass>AutoHarvestWild.Building_AutoHarvestCenter</thingClass>
+		<graphicData>
+			<texPath>Building/AutoHarvestCenter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<statBases>
+			<WorkToBuild>0</WorkToBuild>
+		</statBases>
+		<useHitPoints>False</useHitPoints>
+		<designationCategory>Misc</designationCategory>
+		<passability>Standable</passability>
+		<selectable>True</selectable>
+		<fillPercent>0.0</fillPercent>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<inspectorTabs>
+			<li>AutoHarvestWild.ITab_AutoHarvestCenter</li>
+		</inspectorTabs>
+		<tickerType>Rare</tickerType>
+	</ThingDef>
+</Defs>

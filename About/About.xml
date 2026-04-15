@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Auto Harvest Wild Plants</name>
+	<author>jayobie</author>
+	<packageId>jayobie.AutoHarvestWildPlants</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>
+		Automates your colony's foraging and logging. Place an Auto-Harvest Center to automatically mark mature wild plants, ambrosia, berries, and generic trees for harvesting. Features a custom UI tab to individually toggle plant types, adjust gathering radii up to map-wide, and safely ignores special trees like Anima and Gauranlen.
+		Git Hub: https://github.com/jayobie/AutoHarvestWildPlants
+	</description>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Odyssey</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+	</loadAfter>
+</ModMetaData>
